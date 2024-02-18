@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Hingorani's Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu'  id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class='active'>Home</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#port">Portfolio</a>
+            <a href="#article">Articles</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>"If you aim to be successful,
+            Step out of your comfort zone,<br>
+            Challenge yourself at every moment you feel you are doing good,
+            and trust me, <br>you will do better than what you started from"</h2>
+            <br>
+            <br>
+            <h1>It's Me - Manoj Hingorani</h1>
+            <br>
+            <h4>Actor, Model, Emcee, and Social Media Influencer</h4>
+            <br>
+            <h3>Proud winner of the Titles -</h3>
+            <br>
+            <h3>Mr. UAE International 🇦🇪 2023</h3>
+            <h3>Mr. Popular 2023</h3>
+        </div>
+        <div class="home-img">
+            <img src="Images/main.jpg" alt="" class="images/home">
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <!-- Your project iframes go here -->
+            <!-- Example: -->
+             <div class="portfolio-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UUJTDEnFkL8?si=FWUabOO7sN-ZiEFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="portfolio-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xUhkJDziwKo?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="portfolio-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3pZTfVjILKg?si=0es-yZSFp7Wl1j6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="portfolio-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jv5wkWtv7LU?si=KGqr11RG6MkmeNmb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="portfolio-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q7__XmMo31w?si=aK9WOtUgcl59t-Ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="portfolio-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n7gdbUvoeUM?si=V9fcnNai67tHWq4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="hidden-project" id="y">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PjUjY5VNLo4?si=P0vOS8Z9PFyc4PTd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+        <div id="seeMoreButton" onclick="toggleProjects()">See More</div>
+        <div class="hidden-project" id="y">
+            <img src="project3.png" alt="">
+        </div>
+        <script>
+            function toggleProjects() {
+                var x=document.getElementById('y');
+                x.classList.toggle('portfolio-box');
+        
+                var seeMoreButton = document.getElementById('seeMoreButton');
+                seeMoreButton.innerText = seeMoreButton.innerText === 'See More' ? 'See Less' : 'See More';
+            }
+        </script>
+    </section>
+
+    <section id="port">
+        <h2 class="heading"><span>Portfolio</span></h2>
+        <div class="portfolio-container">
+            <!-- Your portfolio images go here -->
+            <!-- Example: -->
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/0.1.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/0.5.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/1.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/2.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/3.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/4.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/5.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/6.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/7.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/8.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/9.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/10.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/11.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/12.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/13.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/14.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/15.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://mixfame.com/talent/23315/"><img src="/Images/16.jpg" alt=""></a>
+            </div>
+            <!-- Repeat for other portfolio items -->
+        </div>
+    </section>
+
+    <section class="portfolio" id="article">
+        <h2 class="heading"><span>Articles</span> Published</h2>
+        <div id="links">
+            <div><a href="https://www.dfashionmagazine.com/article-detail.php?id=1143">https://www.dfashionmagazine.com/article-detail.php?id=1143</a></div>
+            <div><a href="https://www.khaleejtimes.com/entertainment/dubai-beauty-pageant-held-in-the-city">https://www.khaleejtimes.com/entertainment/dubai-beauty-pageant-held-in-the-city</a></div>
+            <div><a href="https://thetimesofuae.com/manoj-hingorani-awarded-the-title-of-mr-uae-international-2023-during-an-extraordinary-event/">https://thetimesofuae.com/manoj-hingorani-awarded-the-title-of-mr-uae-international-2023-during-an-extraordinary-event/</a></div>
+            <div><a href="https://www.hindustanmetro.com/manoj-hingorani-model-actor-emcee-and-social-media-influencer-exclusive-interview/">https://www.hindustanmetro.com/manoj-hingorani-model-actor-emcee-and-social-media-influencer-exclusive-interview/</a></div>
+            <div><a href="https://topstoriesindia.com/manoj-hingorani-model-actor-emcee-and-social-media-influencer-exclusive-interview">https://topstoriesindia.com/manoj-hingorani-model-actor-emcee-and-social-media-influencer-exclusive-interview</a></div>
+            <div><a href="https://www.instagram.com/p/Csxgcutp1U1/?igshid=MzRlODBiNWFlZA==">https://www.instagram.com/p/Csxgcutp1U1/?igshid=MzRlODBiNWFlZA==</a></div>
+            <div><a href="https://kuwaitherald.com/taking-the-modeling-world-by-storm-meet-manoj-hingorani-a-face-for-the-top-brands">https://kuwaitherald.com/taking-the-modeling-world-by-storm-meet-manoj-hingorani-a-face-for-the-top-brands</a></div>
+            <div><a href="https://thedubaitimes.net/taking-the-modeling-world-by-storm-meet-manoj-hingorani-a-face-for-the-top-brands">https://thedubaitimes.net/taking-the-modeling-world-by-storm-meet-manoj-hingorani-a-face-for-the-top-brands</a></div>
+            <div><a href="https://abudhabiherald.com/taking-the-modeling-world-by-storm-meet-manoj-hingorani-a-face-for-the-top-brands">https://abudhabiherald.com/taking-the-modeling-world-by-storm-meet-manoj-hingorani-a-face-for-the-top-brands</a></div>
+            <div><a href="https://thedubaitimes.net/influencer-manoj-hingorani-raises-temperatures-with-his-modeling-and-acting">https://thedubaitimes.net/influencer-manoj-hingorani-raises-temperatures-with-his-modeling-and-acting</a></div>
+            <div><a href="https://theqatarnews.net/influencer-manoj-hingorani-raises-temperatures-with-his-modeling-and-acting">https://theqatarnews.net/influencer-manoj-hingorani-raises-temperatures-with-his-modeling-and-acting</a></div>
+            <!-- Add more links as needed -->
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <div class="xy">
+            <div class="contact-media">
+                <a href="https://www.instagram.com/manoj_hingorani_official/"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <div class="contact-media">
+                <a href="mailto:livelife1212007@yahoo.com"><i class='bx bx-envelope'></i></a>
+            </div>
+            <div class="contact-media">
+                <a href="https://wa.me/1505056364"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- Your footer content goes here -->
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</body>
+</html>
